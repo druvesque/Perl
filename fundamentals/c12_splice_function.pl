@@ -1,0 +1,7 @@
+#!/usr/bin/perl -w 
+
+@alpha = ('a' .. 'z');
+splice @alpha, 4, 5, map(uc, @alpha[4 .. 8]);
+$, = ' ';
+print @alpha;
+print "\n";
