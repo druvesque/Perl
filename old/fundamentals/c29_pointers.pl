@@ -11,6 +11,6 @@ print $$b;  # is a pointer to pointer $a
 print "\n";
 print $$$b; # is actual value stored in pointer $a
 print "\n";
-$$$b = 90;  # there is a problem in this statement
+# $$$b = 90;  # there is a problem in this statement
 print $$a;
 print "\n";
